@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Join Us – Clutch Culture</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="auth-page">
+    <header class="site-header">
+        <nav class="site-nav container" aria-label="Main navigation">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about us.html">ABOUT US</a></li>
+                <li><a href="contact us.html">CONTACTS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container auth-card" aria-labelledby="join-heading">
+        <h2 id="join-heading">Welcome to Clutch Culture</h2>
+        <p class="lead">Log in to reconnect with your crew, check ride schedules, and more.</p>
+
+        <form class="auth-form" action="#" method="post" novalidate>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit" class="btn">LOG IN</button>
+        </form>
+
+        <div class="social-login">
+            <button class="btn btn-ghost" aria-label="Sign in with Google">Google</button>
+            <button class="btn btn-ghost" aria-label="Sign in with Facebook">Facebook</button>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2025 Clutch Culture</p>
+        </div>
+    </footer>
+</body>
+</html>
